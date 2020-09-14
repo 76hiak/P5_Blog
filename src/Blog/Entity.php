@@ -27,3 +27,14 @@ abstract class Entity
 			}
 		}
     }
+
+    public function getFormattedDateTime($date)
+    {
+        date_default_timezone_set('Europe/Paris');
+        setlocale(LC_TIME, 'fr_FR.utf8','fra');
+        $date = new \DateTime($date);
+        $date = strftime("%d %B %Y à %Hh%M", $date->getTimeStamp());
+
+        return $date;
+    }
+}
