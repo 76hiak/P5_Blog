@@ -1,6 +1,6 @@
 <?php
 
-namespace P5_Blog\src\Models\Entity;
+namespace Models\Entity;
 
 use \P5_Blog\src\Blog\Entity;
 

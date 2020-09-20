@@ -11,7 +11,7 @@
         <div class="control-group error">
           <div class="form-group floating-label-form-group controls">
             <label>Titre</label>
-            <input name="title" type="text" class="form-control" placeholder="Titre" id="titre" required data-validation-required-message="Veuillez renseigner ce champ.">
+              <label for="titre"></label><input name="title" type="text" class="form-control" placeholder="Titre" id="titre" required data-validation-required-message="Veuillez renseigner ce champ.">
             <p class="help-block text-danger"></p>
           </div>
         </div>

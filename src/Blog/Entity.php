@@ -1,6 +1,6 @@
 <?php
 
-namespace P5_Blog\src\Blog;
+namespace Blog;
 
 abstract class Entity 
 {

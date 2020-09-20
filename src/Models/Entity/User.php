@@ -1,6 +1,6 @@
 <?php
 
-namespace P5_Blog\src\Models\Entity;
+namespace Models\Entity;
 
 use \P5_Blog\src\Blog\Entity;
 
@@ -26,7 +26,7 @@ class User extends Entity
     public function getPassword() { return $this->password; }
     public function getActivated() { return $this->activated; }
 	public function getUserRole() { return $this->userRole; }
-	public function getUserTypeString(): string
+	public function getUserRoleString(): string
 	{
 	    return self::USERROLE[$this->userRole];
 	}

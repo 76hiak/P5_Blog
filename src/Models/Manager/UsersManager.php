@@ -1,6 +1,6 @@
 <?php
 
-namespace P5_Blog\src\Models\Manager;
+namespace Manager;
 
 use \P5_Blog\src\Blog\Model;
 use \P5_Blog\src\Models\Entity\User;
