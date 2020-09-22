@@ -1,12 +1,16 @@
 <?php
 
-use \P5_Blog\src\Models\Manager\PostsManager;
-use \P5_Blog\src\Models\Entity\Post;
-use \P5_Blog\src\Blog\Configuration;
+use \Manager\PostsManager;
+use \Manager\UsersManager;
+use \Manager\CommentsManager;
+use \Models\Entity\Post;
+use \Models\Entity\User;
+use \Models\Entity\Comment;
+use \Blog\Configuration;
 
 require_once 'ControllerSecured.php';
 
-/** Controleur des actions d'administration. Hérite de ControllerSecured afin de vérifier l'authentification */
+/** Contrôleur des actions d'administration. Hérite de ControllerSecured afin de vérifier l'authentification */
 class ControllerAdmin
 {
     private $postsManager;

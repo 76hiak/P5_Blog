@@ -7,7 +7,7 @@
 
       <h2>Ajouter un post</h2>
       
-      <form method="post" action="addPost" id="addPostForm" novalidate>
+      <form method="post" action="Admin/addPost" id="addPostForm" novalidate>
         <div class="control-group error">
           <div class="form-group floating-label-form-group controls">
             <label>Titre</label>

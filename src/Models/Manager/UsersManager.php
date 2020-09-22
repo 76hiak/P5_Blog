@@ -2,8 +2,8 @@
 
 namespace Manager;
 
-use \P5_Blog\src\Blog\Model;
-use \P5_Blog\src\Models\Entity\User;
+use \Blog\Model;
+use \Models\Entity\User;
 
 class UsersManager extends Model
 {

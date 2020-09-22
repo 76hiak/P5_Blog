@@ -2,7 +2,7 @@
 
 namespace Models\Entity;
 
-use \P5_Blog\src\Blog\Entity;
+use \Blog\Entity;
 
 class Post extends Entity
 {

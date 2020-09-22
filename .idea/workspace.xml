@@ -7,7 +7,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -41,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Views/template.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.php" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,7 +58,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600286880952</updated>
-      <workItem from="1600286882689" duration="14596000" />
+      <workItem from="1600286882689" duration="15242000" />
+      <workItem from="1600791253224" duration="12586000" />
     </task>
     <servers />
   </component>
@@ -66,10 +67,26 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="501" y="185" key="FileChooserDialogImpl" timestamp="1600520241148">
+    <state x="347" y="108" key="#Inspections" timestamp="1600792449554">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="501" y="185" key="FileChooserDialogImpl/0.0.1440.860/2880.0.1920.1040@0.0.1440.860" timestamp="1600520241148" />
-    <state x="501" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1600292528928" />
+    <state x="347" y="108" key="#Inspections/0.0.1440.860/2880.0.1920.1040@0.0.1440.860" timestamp="1600792449554" />
+    <state x="132" y="271" key="#SQL_Dialects" timestamp="1600807063466">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="132" y="271" key="#SQL_Dialects/0.0.1440.860@0.0.1440.860" timestamp="1600807063466" />
+    <state x="440" y="73" width="812" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600808447689">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="440" y="73" width="812" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1600808447689" />
+    <state x="501" y="185" key="FileChooserDialogImpl" timestamp="1600809648802">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="501" y="185" key="FileChooserDialogImpl/0.0.1440.860/2880.0.1920.1040@0.0.1440.860" timestamp="1600795059304" />
+    <state x="501" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1600809648802" />
+    <state x="117" y="59" width="846" height="801" key="find.popup" timestamp="1600802341903">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="117" y="59" width="846" height="801" key="find.popup/0.0.1440.860@0.0.1440.860" timestamp="1600802341903" />
   </component>
 </project>

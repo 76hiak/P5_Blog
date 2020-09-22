@@ -45,7 +45,7 @@ class Router
             // Première lettre en majuscule
             $controller = ucfirst($controller);
         }
-        // Creation du nom du fichier du contrôleur
+        // Création du nom du fichier du contrôleur
         $classController = 'Controller' . $controller;
         $fileController = 'Controller/' . $classController . '.php';
         if (file_exists($fileController))
