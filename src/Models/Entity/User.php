@@ -16,6 +16,7 @@ class User extends Entity
     private $email;
     private $password;
     private $activated;
+    private $validationKey;
     private $dateCreation;
     private $dateUpdate;
     private $userRole;
@@ -25,13 +26,9 @@ class User extends Entity
     public function getEmail() { return $this->email; }
     public function getPassword() { return $this->password; }
     public function getActivated() { return $this->activated; }
-	public function getUserRole() { return $this->userRole; }
-	public function getUserRoleString(): string
-	{
-	    return self::USERROLE[$this->userRole];
-	}
+    public function getValidationKey() { return $this->validationKey; }
+    public function getUserRole() { return $this->userRole; }
 	public function getDateCreation() { return $this->dateCreation; }
-	
 	public function getFormattedDateCreation() { return $this->getFormattedDateTime($this->dateCreation); }
 	
     public function setId($id) { $this->id = $id; }
@@ -39,6 +36,7 @@ class User extends Entity
     public function setEmail($email) { $this->email = $email; }
     public function setPassword($password) { $this->password = $password; }
     public function setActivated($activated) { $this->activated = $activated; }
+    public function setValidationKey($validationKey) { $this->validationKey = $validationKey; }
     public function setUserRole($userRole) { $this->userRole = $userRole; }
     public function setDateCreation($dateCreation) { $this->dateCreation = $dateCreation; }
     public function setDateUpdate($dateUpdate) { $this->dateUpdate = $dateUpdate; }

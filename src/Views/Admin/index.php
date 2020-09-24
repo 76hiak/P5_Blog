@@ -1,3 +1,4 @@
+<?php $this->title = "Mon Blog - Admin"; ?>
 
 
 <!--  Content  -->

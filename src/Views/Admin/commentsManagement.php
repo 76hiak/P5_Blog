@@ -6,9 +6,9 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-md-10 mx-auto">
-    <p class="help-block text-danger"><?= $errorMessage ?></p>
-    <p class="help-block text-success"><?= $successMessage ?></p>
-        <h2>Gestion des commentaires non-modérés</h2>
+        <p class="help-block text-danger"><?= $errorMessage ?></p>
+        <p class="help-block text-success"><?= $successMessage ?></p>
+        <h2>Gestion des commentaires non modérés</h2>
         <p><i class="fas fa-check"></i> = Valider le commentaire</p>   
         <p><i class="fas fa-trash-alt"></i> = Supprimer le commentaire</p>                                                                   
         <div class="table-responsive">      

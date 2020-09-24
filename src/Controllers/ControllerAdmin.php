@@ -36,7 +36,8 @@ class ControllerAdmin
             'title' => $title, 
             'chapo' => $chapo, 
             'content' => $content, 
-            'dateCreation' => date('Y-m-d H:i:s'), 
+            'dateCreation' => date('Y-m-d H:i:s'),
+            'dateUpdate' => date('Y-m-d H:i:s'),
             'userId' => $userId
         ));
         // Ajout de l'objet Post dans la base de données

@@ -1,6 +1,5 @@
-<?php
-    echo $title;
- ?>
+<?php $this->title = "Mon Blog - Home"; ?>
+
 
 <!-- Page Header -->
 <header class="masthead" style="background-image: url('public/bootstrap/startbootstrap-freelancer-gh-pages/img/profile.png')">

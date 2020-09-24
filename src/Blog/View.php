@@ -16,7 +16,7 @@ class View
     public function __construct($action, $controller = "")
     {
         // Détermination du nom du fichier vue à partir de l'action et du contrôleur
-        $file = "View/";
+        $file = "Views/";
         if ($controller != "") 
         {
             // Chaque vue est stockée dans un sous-répertoire portant le nom du contrôleur associé à la vue

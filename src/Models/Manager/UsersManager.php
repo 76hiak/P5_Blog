@@ -21,7 +21,7 @@ class UsersManager extends Model
     
     public function getList()
     {
-        $sql = 'SELECT id, username, email, password, activated, user_role, date_creation FROM user ORDER BY date_creation DESC';
+        $sql = 'SELECT id, username, email, password, activated, validation_key, user_role, date_creation, date_update FROM user ORDER BY date_creation DESC';
         $users = $this->executeRequest($sql);
 
         $usersTab = [];
@@ -42,7 +42,7 @@ class UsersManager extends Model
      */
     public function get($id)
     {
-        $sql = 'SELECT id, username, email, password, activated, user_role, date_creation FROM user WHERE id = ?';
+        $sql = 'SELECT id, username, email, password, activated, validation_key, user_role, date_creation, date_update FROM user WHERE id = ?';
         $user = $this->executeRequest($sql, array($id));
         
         if ($user->rowCount() == 1)
@@ -58,7 +58,7 @@ class UsersManager extends Model
     
     public function getByUsername($username)
     {
-        $sql = 'SELECT id, username, email, password, activated, user_role, date_creation FROM user WHERE username = ?';
+        $sql = 'SELECT id, username, email, password, activated, validation_key, user_role, date_creation, date_update FROM user WHERE username = ?';
         $user = $this->executeRequest($sql, array($username));
 
         if ($user->rowCount() == 1)
@@ -74,7 +74,7 @@ class UsersManager extends Model
     
     public function getByEmail($email)
     {
-        $sql = 'SELECT id, username, email, password, activated, user_role, date_creation FROM user WHERE email = ?';
+        $sql = 'SELECT id, username, email, password, activated, validation_key, user_role, date_creation, date_update FROM user WHERE email = ?';
         $user = $this->executeRequest($sql, array($email));
         
         if ($user->rowCount() == 1)
@@ -90,8 +90,8 @@ class UsersManager extends Model
 
     public function add(User $user)
     {
-        $sql = 'INSERT INTO user(username, email, password, activated, user_role, date_creation) VALUES(?, ?, ?, ?, ?, ?)';
-        $this->executeRequest($sql, array($user->getUsername(), $user->getEmail(), $user->getPassword(), $user->getActivated(), $user->getUserRole(), $user->getDateCreation() ));
+        $sql = 'INSERT INTO user(username, email, password, activated, validation_key, user_role, date_creation, date_update) VALUES(?, ?, ?, ?, ?, ?, ?, ?)';
+        $this->executeRequest($sql, array($user->getUsername(), $user->getEmail(), $user->getPassword(), $user->getActivated(), $user->getValidationKey(), $user->getUserRole(), $user->getDateCreation(), $user->getDateUpdate() ));
     }
 
     public function delete(User $user)
@@ -102,7 +102,7 @@ class UsersManager extends Model
 
     public function update(User $user)
     {
-        $sql = 'UPDATE user SET username = ?, email = ?, password = ?, activated = ?, user_role = ?, date_creation = ? WHERE id = ?';
-        $this->executeRequest($sql, array($user->getUsername(), $user->getEmail(), $user->getPassword(), $user->getActivated(), $user->getUserRole(), $user->getDateCreation(), $user->getId() ));
+        $sql = 'UPDATE user SET username = ?, email = ?, password = ?, activated = ?, validation_key = ?, user_role = ?, date_creation = ?, date_update = ? WHERE id = ?';
+        $this->executeRequest($sql, array($user->getUsername(), $user->getEmail(), $user->getPassword(), $user->getActivated(), $user->getValidationKey(), $user->getUserRole(), $user->getDateCreation(), $user->getDateUpdate(), $user->getId() ));
     }
 }

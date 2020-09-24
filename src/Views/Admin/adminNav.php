@@ -8,10 +8,10 @@
                     <h1>Administration</h1>
                     <span class="subheading">Que voulez-vous faire aujourd'hui ? 👷</span>
                     <br>
-                    <a type="button" class="btn btn-primary adminBtn" href="Admin/index">Ajouter un post</a>
-                    <a type="button" class="btn btn-secondary adminBtn" href="Admin/postsManagement">Gérer les posts</a>
-                    <a type="button" class="btn btn-success adminBtn" href="Admin/usersManagement">Gérer les utilisateurs</a>
-                    <a type="button" class="btn btn-danger adminBtn" href="Admin/commentsManagement">Modérer les commentaires</a>
+                    <a type="button" class="btn btn-primary adminBtn" href="/src/Views/Admin/index.php">Ajouter un post</a>
+                    <a type="button" class="btn btn-secondary adminBtn" href="/src/Views/Admin/postsManagement.php">Gérer les posts</a>
+                    <a type="button" class="btn btn-success adminBtn" href="/src/Views/Admin/usersManagement.php">Gérer les utilisateurs</a>
+                    <a type="button" class="btn btn-danger adminBtn" href="/src/Views/Admin/commentsManagement.php">Modérer les commentaires</a>
                 </div>
         	</div>
     </div>

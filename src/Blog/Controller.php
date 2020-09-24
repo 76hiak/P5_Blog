@@ -31,7 +31,7 @@ abstract class Controller
      */
 	public function executeAction($action)
 	{
-		if (method_exists($this, $action)) // Verifie si une méthode qui se nomme $action existe dans la classe actuelle.
+		if (method_exists($this, $action)) // Vérifie si une méthode qui se nomme $action existe dans la classe actuelle.
 		{
 			$this->action = $action;
 			$this->{$this->action}(); // Appel de la méthode dont le nom est $action

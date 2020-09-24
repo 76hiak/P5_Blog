@@ -21,7 +21,7 @@
                 <th>Id</th>
                 <th>Titre</th>
                 <th>Date de création</th>
-                <th>Date mise à jour</th>
+                <th>Date de mise à jour</th>
                 <th>Auteur</th>
                 <th>Opérations</th>
               </tr>
