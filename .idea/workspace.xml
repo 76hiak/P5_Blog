@@ -9,7 +9,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <interpreter composer="composer" />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,7 +27,6 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/font-awesome/scss" />
       <path value="$PROJECT_DIR$/vendor/font-awesome/fonts" />
-      <path value="$PROJECT_DIR$/vendor/twig/twig" />
       <path value="$PROJECT_DIR$/vendor/font-awesome/less" />
       <path value="$PROJECT_DIR$/vendor/font-awesome/css" />
       <path value="$PROJECT_DIR$/vendor/bootstrap/css" />
@@ -50,6 +51,16 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,7 +73,11 @@
       <workItem from="1600791253224" duration="12586000" />
       <workItem from="1600885360847" duration="5223000" />
       <workItem from="1600937906620" duration="149000" />
-      <workItem from="1600938411985" duration="9648000" />
+      <workItem from="1600938411985" duration="11159000" />
+      <workItem from="1601566608037" duration="1603000" />
+      <workItem from="1601568403643" duration="2022000" />
+      <workItem from="1601715025521" duration="3219000" />
+      <workItem from="1602008363007" duration="4668000" />
     </task>
     <servers />
   </component>
@@ -83,15 +98,19 @@
     </state>
     <state x="544" y="-1" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860/2880.0.1920.1040@0.0.1440.860" timestamp="1600931051084" />
     <state x="440" y="73" width="812" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1600808447689" />
+    <state x="498" y="342" width="443" height="238" key="ComposerInitDialogKey" timestamp="1602015459983">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="498" y="342" width="443" height="238" key="ComposerInitDialogKey/0.0.1440.860/2880.0.1920.1040@0.0.1440.860" timestamp="1602015459983" />
     <state x="501" y="185" key="FileChooserDialogImpl" timestamp="1600931078829">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="501" y="185" key="FileChooserDialogImpl/0.0.1440.860/2880.0.1920.1040@0.0.1440.860" timestamp="1600931078829" />
     <state x="501" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1600809648802" />
-    <state x="117" y="59" width="846" height="801" key="find.popup" timestamp="1600955311480">
+    <state x="117" y="59" width="846" height="801" key="find.popup" timestamp="1602015122433">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="117" y="59" width="846" height="801" key="find.popup/0.0.1440.860/2880.0.1920.1040@0.0.1440.860" timestamp="1600955311480" />
+    <state x="117" y="59" width="846" height="801" key="find.popup/0.0.1440.860/2880.0.1920.1040@0.0.1440.860" timestamp="1602015122433" />
     <state x="117" y="59" width="846" height="801" key="find.popup/0.0.1440.860@0.0.1440.860" timestamp="1600802341903" />
   </component>
 </project>

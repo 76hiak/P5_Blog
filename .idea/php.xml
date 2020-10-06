@@ -7,7 +7,6 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/font-awesome/scss" />
       <path value="$PROJECT_DIR$/vendor/font-awesome/fonts" />
-      <path value="$PROJECT_DIR$/vendor/twig/twig" />
       <path value="$PROJECT_DIR$/vendor/font-awesome/less" />
       <path value="$PROJECT_DIR$/vendor/font-awesome/css" />
       <path value="$PROJECT_DIR$/vendor/bootstrap/css" />

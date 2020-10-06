@@ -34,7 +34,7 @@ class Router
         $view->generate(array('msgError' => $exception->getMessage()));
     }
     
-    // Creation du contrôleur approprié en fonction de la requête reçue
+    // Création du contrôleur approprié en fonction de la requête reçue
     private function createController(Request $request)
     {
         $controller = "Home"; //Contrôleur par défaut
