@@ -2,7 +2,9 @@
 
 namespace Blog;
 
-class Configuration 
+use Exception;
+
+class Configuration
 {
 
 	private static $parameters;
@@ -26,16 +28,16 @@ class Configuration
 	{
 		if (self::$parameters == null) 
 		{
-			$pathFile = "Config/prod.ini";
+			$pathFile = "src/Config/prod.ini";
 
 			if (!file_exists($pathFile))
 			{
-				$pathFile = "Config/dev.ini";
+				$pathFile = "src/Config/dev.ini";
 			}
 
 			if (!file_exists($pathFile))
 			{
-				throw new \Exception("Aucun fichier de configuration trouvé");
+				throw new Exception("Aucun fichier de configuration trouvé");
 			}
 			else
 			{

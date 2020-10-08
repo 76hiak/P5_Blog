@@ -5,8 +5,7 @@
   "autoload": {
     "psr-4": {
       "Blog\\" : "src/Blog",
-      "Blog\\src\\Models\\entity\\" : "src/Models/Entity",
-      "Blog\\src\\Models\\Manager\\" : "src/Models/Manager"
+      "Views\\" : "src/Views"
     }
   }
 }
