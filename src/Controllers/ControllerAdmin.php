@@ -1,12 +1,7 @@
 <?php
 
 use \Manager\PostsManager;
-use \Manager\UsersManager;
-use \Manager\CommentsManager;
 use \Models\Entity\Post;
-use \Models\Entity\User;
-use \Models\Entity\Comment;
-use \Blog\Configuration;
 
 require_once 'ControllerSecured.php';
 

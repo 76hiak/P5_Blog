@@ -44,7 +44,7 @@ class View
     // Génère un fichier vue et renvoie le résultat produit
     private function generateFile($file, $data) 
     {
-        if (file_exists($file)) 
+        if (file_exists("src/".$file))
         {
             // Rend les éléments du tableau $data accessibles dans la vue
             extract($data);
@@ -52,13 +52,13 @@ class View
             ob_start();
             // Inclut le fichier vue
             // Son résultat est placé dans le tampon de sortie
-            require $file;
+            require "src/".$file;
             // Arrêt de la temporisation et renvoi du tampon de sortie
             return ob_get_clean();
         }
         else 
         {
-            throw new Exception("Fichier '$file' introuvable");
+            throw new Exception("Fichier "."src/".$file." introuvable");
         }
     }
 

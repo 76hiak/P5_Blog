@@ -80,7 +80,7 @@
             {
             ?>  
             <li class="nav-item">
-              <a class="nav-link" href="login/logout">Déconnexion</a>
+              <a class="nav-link" href="Login/logout">Déconnexion</a>
             </li>
             <?php
             }

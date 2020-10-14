@@ -43,7 +43,7 @@
       <p class="help-block text-error"><?= $errorMessage ?></p>
    	  <p class="help-block text-success"><?= $successMessage ?></p>
       <p>Ajouter un commentaire :</p>
-      <form method="post" action="post/addComment" name="sentMessage" id="commentForm" novalidate>
+      <form method="post" action="addComment" name="sentMessage" id="commentForm" novalidate>
         
         <div class="control-group">
           <div class="form-group floating-label-form-group controls">

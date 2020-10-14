@@ -47,7 +47,7 @@ class Router
         }
         // Création du nom du fichier du contrôleur
         $classController = 'Controller' . $controller;
-        $fileController = 'Controllers/' . $classController . '.php';
+        $fileController = 'src/Controllers/' . $classController . '.php';
         if (file_exists($fileController))
         {
             // Instanciation du contrôleur adapté à la requête

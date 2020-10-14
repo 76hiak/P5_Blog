@@ -8,7 +8,7 @@
     <div class="col-lg-8 col-md-10 mx-auto">
       <h2>Editer un post</h2>
       
-      <form method="post" action="admin/updatePost" id="updatePostForm" novalidate>
+      <form method="post" action="updatePost" id="updatePostForm" novalidate>
         <div class="control-group">
           <div class="form-group controls">
             <label for="title">Titre</label>

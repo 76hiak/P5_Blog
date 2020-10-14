@@ -22,7 +22,7 @@
     <p class="help-block text-danger"><?= $errorMessage ?></p>
     <p class="help-block text-success"><?= $successMessage ?></p>
       
-      <form method="post" action="login/login" id="contactForm" novalidate>
+      <form method="post" action="login" id="contactForm" novalidate>
         <div class="control-group">
           <div class="form-group floating-label-form-group controls">
             <label for="username">Nom d'utilisateur</label>
@@ -39,7 +39,7 @@
           </div>
         </div>
         
-        <p><a href="login/resetEmail">Mot de passe oublié ?</a></p>
+        <p><a href="resetEmail">Mot de passe oublié ?</a></p>
         
         <br>
         <div id="success"></div>

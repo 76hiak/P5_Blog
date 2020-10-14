@@ -20,7 +20,7 @@
   <div class="row">
     <div class="col-lg-8 col-md-10 mx-auto">
       
-      <form method="post" action="registration/register" id="contactForm" novalidate>
+      <form method="post" action="register" id="contactForm" novalidate>
         <div class="control-group">
           <div class="form-group floating-label-form-group controls">
             <label>Nom d'utilisateur</label>

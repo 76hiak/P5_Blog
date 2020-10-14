@@ -23,7 +23,7 @@
     <p class="help-block text-success"><?= $successMessage ?></p>
       <p>Voulez-vous entrer en contact ? Remplissez le formulaire et je vous recontacterai dès que possible !</p>
       
-      <form method="post" action="contact/sendMessage" name="sentMessage" id="contactForm" novalidate>
+      <form method="post" action="sendMessage" name="sentMessage" id="contactForm" novalidate>
         <div class="control-group">
           <div class="form-group floating-label-form-group controls">
             <label>Nom</label>

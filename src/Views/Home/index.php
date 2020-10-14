@@ -11,7 +11,7 @@
           <h1>Arnaud Kramrich</h1>
           <span class="subheading">Mon Blog MVC POO</span>
           <p>
-          	<a href="/P5_Blog/public/pdf/CV-Europass-20190821-Kramrich-FR.pdf" target="_blank" class="btn btn-success">Téléchargez mon CV !</a>
+          	<a href="/public/pdf/CV-Europass-20190821-Kramrich-FR.pdf" target="_blank" class="btn btn-success">Téléchargez mon CV !</a>
           </p>
         </div>
       </div>
