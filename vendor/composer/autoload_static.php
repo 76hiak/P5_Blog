@@ -11,6 +11,14 @@ class ComposerStaticInit64e3f78c5896038c2d85752f953248b2
         array (
             'Views\\' => 6,
         ),
+        'M' => 
+        array (
+            'Manager\\' => 8,
+        ),
+        'C' => 
+        array (
+            'Controllers\\' => 12,
+        ),
         'B' => 
         array (
             'Blog\\' => 5,
@@ -21,6 +29,14 @@ class ComposerStaticInit64e3f78c5896038c2d85752f953248b2
         'Views\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/Views',
+        ),
+        'Manager\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Models/Manager',
+        ),
+        'Controllers\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Controllers',
         ),
         'Blog\\' => 
         array (

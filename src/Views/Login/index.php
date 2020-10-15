@@ -39,7 +39,7 @@
           </div>
         </div>
         
-        <p><a href="resetEmail">Mot de passe oublié ?</a></p>
+        <p><a href="/src/Views/Login/resetEmail.php">Mot de passe oublié ?</a></p>
         
         <br>
         <div id="success"></div>

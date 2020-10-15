@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e6db59c8-a197-4069-b20f-e7b6b4f15682" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +79,7 @@
       <workItem from="1601568403643" duration="2022000" />
       <workItem from="1601715025521" duration="3219000" />
       <workItem from="1602008363007" duration="4668000" />
-      <workItem from="1602015575933" duration="19012000" />
+      <workItem from="1602015575933" duration="29453000" />
     </task>
     <servers />
   </component>
@@ -108,11 +111,11 @@
     </state>
     <state x="501" y="185" key="FileChooserDialogImpl/0.0.1440.860/2880.0.1920.1040@0.0.1440.860" timestamp="1600931078829" />
     <state x="501" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1600809648802" />
-    <state x="117" y="59" width="846" height="801" key="find.popup" timestamp="1602424347641">
+    <state x="117" y="59" width="846" height="801" key="find.popup" timestamp="1602797265407">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="117" y="59" width="846" height="801" key="find.popup/0.0.1440.860/2880.0.1920.1040@0.0.1440.860" timestamp="1602015122433" />
-    <state x="117" y="59" width="846" height="801" key="find.popup/0.0.1440.860@0.0.1440.860" timestamp="1602424347641" />
+    <state x="117" y="59" width="846" height="801" key="find.popup/0.0.1440.860@0.0.1440.860" timestamp="1602797265407" />
     <state x="438" y="201" key="refactoring.ChangeSignatureDialog" timestamp="1602015596091">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
