@@ -24,7 +24,7 @@
         <div class="control-group">
           <div class="form-group floating-label-form-group controls">
             <label>Nom d'utilisateur</label>
-            <input name="username" type="text" class="form-control" placeholder="Nom d'utilisateur" id="username" required data-validation-required-message="Veuillez renseigner ce champ.">
+              <label for="username"></label><input name="username" type="text" class="form-control" placeholder="Nom d'utilisateur" id="username" required data-validation-required-message="Veuillez renseigner ce champ.">
             <p class="help-block text-danger"></p>
           </div>
         </div>
@@ -32,7 +32,7 @@
         <div class="control-group">
           <div class="form-group floating-label-form-group controls">
             <label>Email</label>
-            <input name="email" type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Veuillez renseigner ce champ." data-validation-email-message="Adresse email invalide">
+              <label for="email"></label><input name="email" type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Veuillez renseigner ce champ." data-validation-email-message="Adresse email invalide">
             <p class="help-block text-danger"></p>
           </div>
         </div>
@@ -48,7 +48,7 @@
         <div class="control-group">
           <div class="form-group floating-label-form-group controls">
             <label>Confirmation du mot de passe</label>
-            <input name="confirmPassword" type="password" class="form-control" placeholder="Confirmation du mot de passe" id="confirmPassword" required data-validation-required-message="Veuillez renseigner ce champ." data-validation-match-match="password" data-validation-match-message="Pas identique au mot de passe">
+              <label for="confirmPassword"></label><input name="confirmPassword" type="password" class="form-control" placeholder="Confirmation du mot de passe" id="confirmPassword" required data-validation-required-message="Veuillez renseigner ce champ." data-validation-match-match="password" data-validation-match-message="Pas identique au mot de passe">
             <p class="help-block text-danger"></p>
           </div>
         </div>

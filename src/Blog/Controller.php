@@ -2,6 +2,8 @@
 
 namespace Blog;
 
+use Exception;
+
 /**
  * Classe abstraite Contrôleur
  * Fournit des services communs aux classes Contrôleur dérivées
@@ -27,7 +29,7 @@ abstract class Controller
      * Exécute l'action à réaliser.
      * Appelle la méthode portant le même nom que l'action sur l'objet Contrôleur courant
      * 
-     * @throws \Exception Si l'action n'existe pas dans la classe Contrôleur courante
+     * @throws Exception Si l'action n'existe pas dans la classe Contrôleur courante
      */
 	public function executeAction($action)
 	{
@@ -39,7 +41,7 @@ abstract class Controller
 		else 
 		{
 			$classController = get_class($this);
-			throw new \Exception("Action '$action' non définie dans la classe $classController");
+			throw new Exception("Action '$action' non définie dans la classe $classController");
 		}
 	}
 

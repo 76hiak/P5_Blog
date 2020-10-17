@@ -3,7 +3,9 @@
 namespace Manager;
 
 use \Blog\Model;
+use Exception;
 use \Models\Entity\User;
+use PDO;
 
 class UsersManager extends Model
 {
@@ -13,7 +15,7 @@ class UsersManager extends Model
         $user = $this->executeRequest($sql, array($username));
         if($user->rowCount() == 1)
         {
-            $user = $user->fetch(\PDO::FETCH_ASSOC);
+            $user = $user->fetch(PDO::FETCH_ASSOC);
             // Renvoie vrai si le mdp correspond
             return (password_verify($password, $user['password']));
         }
@@ -25,7 +27,7 @@ class UsersManager extends Model
         $users = $this->executeRequest($sql);
 
         $usersTab = [];
-        while ($data = $users->fetch(\PDO::FETCH_ASSOC)) // Tant qu'il y a des lignes qui doivent être fetch, les placer dans $data.
+        while ($data = $users->fetch(PDO::FETCH_ASSOC)) // Tant qu'il y a des lignes qui doivent être fetch, les placer dans $data.
         {
             $usersTab[] = new User($data); // Ajouter un nouvel objet User crée à partir des données dans le tableau $usersTab
         }
@@ -37,7 +39,7 @@ class UsersManager extends Model
      * Renvoie un objet User qui existe dans la base de données.
      * 
      * @param int $id
-     * @throws \Exception Si aucune identifiant ne correspond un utilisateur dans la base de données
+     * @throws Exception Si aucune identifiant ne correspond un utilisateur dans la base de données
      * @return User
      */
     public function get($id)
@@ -47,12 +49,12 @@ class UsersManager extends Model
         
         if ($user->rowCount() == 1)
         {
-            $data = $user->fetch(\PDO::FETCH_ASSOC);
+            $data = $user->fetch(PDO::FETCH_ASSOC);
             return new User($data);
         }
         else
         {
-            throw new \Exception("Aucun utilisateur ne correspond à l'identifiant '$id'");
+            throw new Exception("Aucun utilisateur ne correspond à l'identifiant '$id'");
         }
     }
     
@@ -63,12 +65,12 @@ class UsersManager extends Model
 
         if ($user->rowCount() == 1)
         {
-            $data = $user->fetch(\PDO::FETCH_ASSOC);
+            $data = $user->fetch(PDO::FETCH_ASSOC);
             return new User($data);
         }
         else
         {
-            throw new \Exception("Aucun utilisateur ne correspond au username '$username'");
+            throw new Exception("Aucun utilisateur ne correspond au username '$username'");
         }
     }
     
@@ -79,12 +81,12 @@ class UsersManager extends Model
         
         if ($user->rowCount() == 1)
         {
-            $data = $user->fetch(\PDO::FETCH_ASSOC);
+            $data = $user->fetch(PDO::FETCH_ASSOC);
             return new User($data);
         }
         else
         {
-            throw new \Exception("Aucun utilisateur ne correspond à l'email '$email'");
+            throw new Exception("Aucun utilisateur ne correspond à l'email '$email'");
         }
     }
 

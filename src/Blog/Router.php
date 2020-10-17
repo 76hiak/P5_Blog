@@ -2,7 +2,9 @@
 
 namespace Blog;
 
-class Router 
+use Exception;
+
+class Router
 {    
     // Route une requête entrante : exécution l'action associée
     public function routingRequest() 
@@ -17,7 +19,7 @@ class Router
 
             $controller->executeAction($action);
         }
-        catch (\Exception $e) 
+        catch (Exception $e)
         {
             $this->error($e);
         }
@@ -26,9 +28,9 @@ class Router
     /**
      * Gère une erreur d'exécution (exception)
      * 
-     * @param \Exception $exception Exception qui s'est produite
+     * @param Exception $exception Exception qui s'est produite
      */
-    private function error(\Exception $exception)
+    private function error(Exception $exception)
     {
         $view = new View("Error");
         $view->generate(array('msgError' => $exception->getMessage()));
@@ -58,7 +60,7 @@ class Router
         }
         else
         {
-            throw new \Exception("Fichier '$fileController' introuvable");
+            throw new Exception("Fichier '$fileController' introuvable");
         }
     }
 

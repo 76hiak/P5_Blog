@@ -6,8 +6,11 @@
     "psr-4": {
       "Blog\\" : "src/Blog",
       "Views\\" : "src/Views",
+      "Admin\\" : "src/Views/Admin",
       "Controllers\\" : "src/Controllers",
-      "Manager\\" : "src/Models/Manager"
+      "Manager\\" : "src/Models/Manager",
+      "Entity\\" : "src/Models/Entity",
+      "Post\\" : "src/Models/Entity/Post"
     }
   }
 }

@@ -2,7 +2,9 @@
 namespace Blog;
 
 // A pour rôle de modéliser une requête
-class Request 
+use Exception;
+
+class Request
 {
 	// Paramètres de la requête
 	private $parameters;
@@ -35,7 +37,7 @@ class Request
 		}
 		else 
 		{
-			throw new \Exception("Paramètre '$name' absent de la requête");
+			throw new Exception("Paramètre '$name' absent de la requête");
 		}
 	}
 }

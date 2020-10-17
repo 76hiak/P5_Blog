@@ -11,9 +11,17 @@ class ComposerStaticInit64e3f78c5896038c2d85752f953248b2
         array (
             'Views\\' => 6,
         ),
+        'P' => 
+        array (
+            'Post\\' => 5,
+        ),
         'M' => 
         array (
             'Manager\\' => 8,
+        ),
+        'E' => 
+        array (
+            'Entity\\' => 7,
         ),
         'C' => 
         array (
@@ -23,6 +31,10 @@ class ComposerStaticInit64e3f78c5896038c2d85752f953248b2
         array (
             'Blog\\' => 5,
         ),
+        'A' => 
+        array (
+            'Admin\\' => 6,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -30,9 +42,17 @@ class ComposerStaticInit64e3f78c5896038c2d85752f953248b2
         array (
             0 => __DIR__ . '/../..' . '/src/Views',
         ),
+        'Post\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Models/Entity/Post',
+        ),
         'Manager\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/Models/Manager',
+        ),
+        'Entity\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Models/Entity',
         ),
         'Controllers\\' => 
         array (
@@ -41,6 +61,10 @@ class ComposerStaticInit64e3f78c5896038c2d85752f953248b2
         'Blog\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/Blog',
+        ),
+        'Admin\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Views/Admin',
         ),
     );
 

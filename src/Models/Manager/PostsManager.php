@@ -3,7 +3,9 @@
 namespace Manager;
 
 use \Blog\Model;
+use Exception;
 use \Models\Entity\Post;
+use PDO;
 
 class PostsManager extends Model
 {
@@ -16,7 +18,7 @@ class PostsManager extends Model
         $sql = 'SELECT post.id, title, chapo, content, post.date_creation, post.date_update, user_id FROM post ORDER BY date_creation DESC';
         $posts = $this->executeRequest($sql);
         $postsTab = [];
-        while ($data = $posts->fetch(\PDO::FETCH_ASSOC))
+        while ($data = $posts->fetch(PDO::FETCH_ASSOC))
         {
             array_push($postsTab, new Post($data));
         }
@@ -30,12 +32,12 @@ class PostsManager extends Model
 
         if ($post->rowCount() == 1)
         {
-            $data = $post->fetch(\PDO::FETCH_ASSOC); // Récupération du résultat de la requête dans un tableau associatif.
+            $data = $post->fetch(PDO::FETCH_ASSOC); // Récupération du résultat de la requête dans un tableau associatif.
             return new Post($data); // Renvoie un objet Post créé à partir des données.
         }
         else
         {
-            throw new \Exception("Aucun post ne correspond à l'identifiant '$idPost'");
+            throw new Exception("Aucun post ne correspond à l'identifiant '$idPost'");
         }
     }
 

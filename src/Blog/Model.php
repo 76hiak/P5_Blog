@@ -2,6 +2,9 @@
 
 namespace Blog;
 
+use PDO;
+use PDOStatement;
+
 /**
  * Classe abstraite Modèle.
  * Centralise les services d'accès à une base de données.
@@ -18,7 +21,7 @@ abstract class Model
      * 
      * @param string $sql Requête SQL
      * @param array $params Paramètres de la requête
-     * @return \PDOStatement Résultats de la requête
+     * @return PDOStatement Résultats de la requête
      */
     protected function executeRequest($sql, $params = null)
     {
@@ -38,7 +41,7 @@ abstract class Model
     /**
      * Renvoie un objet de connexion à la BDD en initialisant la connexion au besoin
      * 
-     * @return \PDO Objet PDO de connexion à la BDD
+     * @return PDO Objet PDO de connexion à la BDD
      */
     private static function getDb()
     {
@@ -50,7 +53,7 @@ abstract class Model
             $password = Configuration::get("password");
 
             // Création de la connexion
-            self::$db = new \PDO($dsn, $login, $password, array(\PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION));  
+            self::$db = new PDO($dsn, $login, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
         }
 
         return self::$db;

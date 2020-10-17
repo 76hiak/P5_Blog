@@ -138,7 +138,7 @@ class ControllerLogin extends Controller
                         $this->usersManager->update($user);
                         $this->redirect("Login");
                     }
-                    else { throw new \Exception("Le mot de passe et sa confirmation ne correspondent pas !"); }
+                    else { throw new Exception("Le mot de passe et sa confirmation ne correspondent pas !"); }
                 }
                 else
                 {
@@ -148,7 +148,7 @@ class ControllerLogin extends Controller
             }
             else
             {
-                throw new \Exception("Clé de validation incorrecte !");
+                throw new Exception("Clé de validation incorrecte !");
                 
             }
         }

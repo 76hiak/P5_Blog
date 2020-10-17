@@ -3,7 +3,9 @@
 namespace Manager;
 
 use \Blog\Model;
+use Exception;
 use \Models\Entity\Comment;
+use PDO;
 
 class CommentsManager extends Model
 {
@@ -13,7 +15,7 @@ class CommentsManager extends Model
         $comments = $this->executeRequest($sql, array($idPost));
 
         $commentsTab = [];
-        while ($data = $comments->fetch(\PDO::FETCH_ASSOC)) // Tant qu'il y'a des lignes qui doivent être fetch, les placer dans $data.
+        while ($data = $comments->fetch(PDO::FETCH_ASSOC)) // Tant qu'il y'a des lignes qui doivent être fetch, les placer dans $data.
         {
             $commentsTab[] = new Comment($data); // Ajouter un nouvel objet Comment crée à partir des données dans le tableau $commentsTab
         }
@@ -27,7 +29,7 @@ class CommentsManager extends Model
         $comments = $this->executeRequest($sql, array());
         
         $commentsTab = [];
-        while ($data = $comments->fetch(\PDO::FETCH_ASSOC)) // Tant qu'il y'a des lignes qui doivent être fetch, les placer dans $data.
+        while ($data = $comments->fetch(PDO::FETCH_ASSOC)) // Tant qu'il y'a des lignes qui doivent être fetch, les placer dans $data.
         {
             $commentsTab[] = new Comment($data); // Ajouter un nouvel objet Comment crée à partir des données dans le tableau $commentsTab
         }
@@ -42,12 +44,12 @@ class CommentsManager extends Model
 
         if ($comment->rowCount() > 0)
         {
-            $data = $comment->fetch(\PDO::FETCH_ASSOC);
+            $data = $comment->fetch(PDO::FETCH_ASSOC);
             return new Comment($data);
         }
         else
         {
-            throw new \Exception("Aucun commentaire ne correspond à l'identifiant '$id'");
+            throw new Exception("Aucun commentaire ne correspond à l'identifiant '$id'");
         }
     }
 

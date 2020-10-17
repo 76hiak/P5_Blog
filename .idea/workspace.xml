@@ -23,7 +23,8 @@
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/font-awesome/scss" />
@@ -41,6 +42,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/index.php" />
@@ -50,14 +52,31 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.P5_Blog">
+    <configuration name="P5_Blog" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.2" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner directory="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="PHP Script.index.php" />
+      <item itemvalue="PHPUnit.P5_Blog" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.P5_Blog" />
         <item itemvalue="PHP Script.index.php" />
       </list>
     </recent_temporary>
@@ -79,7 +98,9 @@
       <workItem from="1601568403643" duration="2022000" />
       <workItem from="1601715025521" duration="3219000" />
       <workItem from="1602008363007" duration="4668000" />
-      <workItem from="1602015575933" duration="29453000" />
+      <workItem from="1602015575933" duration="32388000" />
+      <workItem from="1602876099536" duration="10722000" />
+      <workItem from="1602929107122" duration="325000" />
     </task>
     <servers />
   </component>
@@ -87,20 +108,36 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="310" y="89" key="#CLI_Interpreters" timestamp="1602929432260">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="310" y="89" key="#CLI_Interpreters/0.0.1440.860@0.0.1440.860" timestamp="1602929432260" />
     <state x="347" y="108" key="#Inspections" timestamp="1602103271844">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="347" y="108" key="#Inspections/0.0.1440.860/2880.0.1920.1040@0.0.1440.860" timestamp="1600936502209" />
     <state x="347" y="108" key="#Inspections/0.0.1440.860@0.0.1440.860" timestamp="1602103271844" />
+    <state x="434" y="77" key="#PHP" timestamp="1602926442710">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="434" y="77" key="#PHP/0.0.1440.860@0.0.1440.860" timestamp="1602926442710" />
     <state x="132" y="271" key="#SQL_Dialects" timestamp="1600807063466">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="132" y="271" key="#SQL_Dialects/0.0.1440.860@0.0.1440.860" timestamp="1600807063466" />
-    <state x="544" y="-1" width="812" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600931051084">
+    <state x="310" y="86" key="#Test_Frameworks" timestamp="1602926336031">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="310" y="86" key="#Test_Frameworks/0.0.1440.860@0.0.1440.860" timestamp="1602926336031" />
+    <state x="440" y="73" width="850" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602929006718">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="544" y="-1" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860/2880.0.1920.1040@0.0.1440.860" timestamp="1600931051084" />
-    <state x="440" y="73" width="812" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1600808447689" />
+    <state x="440" y="73" width="850" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1602929006718" />
+    <state x="479" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602926822805">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="479" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.860@0.0.1440.860" timestamp="1602926822805" />
     <state x="498" y="342" width="443" height="238" key="ComposerInitDialogKey" timestamp="1602101500628">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -111,11 +148,51 @@
     </state>
     <state x="501" y="185" key="FileChooserDialogImpl/0.0.1440.860/2880.0.1920.1040@0.0.1440.860" timestamp="1600931078829" />
     <state x="501" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1600809648802" />
-    <state x="117" y="59" width="846" height="801" key="find.popup" timestamp="1602797265407">
+    <state width="1398" height="223" key="GridCell.Tab.0.bottom" timestamp="1602929097096">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1602929097096" />
+    <state width="1398" height="223" key="GridCell.Tab.0.center" timestamp="1602929097096">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1602929097096" />
+    <state width="1398" height="223" key="GridCell.Tab.0.left" timestamp="1602929097096">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1602929097096" />
+    <state width="1398" height="223" key="GridCell.Tab.0.right" timestamp="1602929097096">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1602929097096" />
+    <state width="1398" height="276" key="GridCell.Tab.1.bottom" timestamp="1602929097091">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1398" height="276" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1602929097091" />
+    <state width="1398" height="276" key="GridCell.Tab.1.center" timestamp="1602929097091">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1398" height="276" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1602929097091" />
+    <state width="1398" height="276" key="GridCell.Tab.1.left" timestamp="1602929097091">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1398" height="276" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1602929097091" />
+    <state width="1398" height="276" key="GridCell.Tab.1.right" timestamp="1602929097091">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1398" height="276" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1602929097091" />
+    <state x="222" y="75" key="SettingsEditor" timestamp="1602929433528">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="222" y="75" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1602929433528" />
+    <state x="0" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1602926474656">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="0" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.0.1440.860@0.0.1440.860" timestamp="1602926474656" />
+    <state x="117" y="59" width="846" height="801" key="find.popup" timestamp="1602879295835">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="117" y="59" width="846" height="801" key="find.popup/0.0.1440.860/2880.0.1920.1040@0.0.1440.860" timestamp="1602015122433" />
-    <state x="117" y="59" width="846" height="801" key="find.popup/0.0.1440.860@0.0.1440.860" timestamp="1602797265407" />
+    <state x="117" y="59" width="846" height="801" key="find.popup/0.0.1440.860@0.0.1440.860" timestamp="1602879295835" />
     <state x="438" y="201" key="refactoring.ChangeSignatureDialog" timestamp="1602015596091">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

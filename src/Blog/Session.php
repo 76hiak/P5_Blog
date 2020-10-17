@@ -2,6 +2,8 @@
 
 namespace Blog;
 
+use Exception;
+
 /**
  * Classe modélisant la session.
  * Encapsule la superglobale PHP $_SESSION.
@@ -50,7 +52,7 @@ class Session
      *
      * @param string $name Nom de l'attribut
      * @return string Valeur de l'attribut
-     * @throws \Exception Si l'attribut n'existe pas dans la session
+     * @throws Exception Si l'attribut n'existe pas dans la session
      */
     public function getAttribute($name)
     {
@@ -60,7 +62,7 @@ class Session
         }
         else 
         {
-            throw new \Exception("Attribut '$name' absent de la session");
+            throw new Exception("Attribut '$name' absent de la session");
         }
     }
 }

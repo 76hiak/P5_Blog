@@ -27,21 +27,21 @@
         <div class="control-group">
           <div class="form-group floating-label-form-group controls">
             <label>Nom</label>
-            <input name="name" type="text" class="form-control" placeholder="Nom" id="name" required data-validation-required-message="Veuillez renseigner ce champ.">
+              <label for="name"></label><input name="name" type="text" class="form-control" placeholder="Nom" id="name" required data-validation-required-message="Veuillez renseigner ce champ.">
             <p class="help-block text-danger"></p>
           </div>
         </div>
         <div class="control-group">
           <div class="form-group floating-label-form-group controls">
             <label>Email</label>
-            <input name="email" type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Veuillez renseigner ce champ." data-validation-email-message="Adresse email invalide">
+              <label for="email"></label><input name="email" type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Veuillez renseigner ce champ." data-validation-email-message="Adresse email invalide">
             <p class="help-block text-danger"></p>
           </div>
         </div>
         <div class="control-group">
           <div class="form-group floating-label-form-group controls">
             <label>Message</label>
-            <textarea name="message" rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Veuillez renseigner ce champ."></textarea>
+              <label for="message"></label><textarea name="message" rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Veuillez renseigner ce champ."></textarea>
             <p class="help-block text-danger"></p>
           </div>
         </div>

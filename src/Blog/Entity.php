@@ -2,7 +2,9 @@
 
 namespace Blog;
 
-abstract class Entity 
+use DateTime;
+
+abstract class Entity
 {
     public function __construct(array $data)
     {
@@ -32,7 +34,7 @@ abstract class Entity
     {
         date_default_timezone_set('Europe/Paris');
         setlocale(LC_TIME, 'fr_FR.utf8','fra');
-        $date = new \DateTime($date);
+        $date = new DateTime($date);
         $date = strftime("%d %B %Y à %Hh%M", $date->getTimeStamp());
 
         return $date;
