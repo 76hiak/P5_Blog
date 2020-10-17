@@ -9,8 +9,7 @@
       "Admin\\" : "src/Views/Admin",
       "Controllers\\" : "src/Controllers",
       "Manager\\" : "src/Models/Manager",
-      "Entity\\" : "src/Models/Entity",
-      "Post\\" : "src/Models/Entity/Post"
+      "Entity\\" : "src/Models/Entity"
     }
   }
 }

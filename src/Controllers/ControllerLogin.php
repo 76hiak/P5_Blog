@@ -40,12 +40,12 @@ class ControllerLogin extends Controller
                     $this->request->getSession()->setAttribute("username", $user->getUsername());
                     if($user->getUserRole() === '2')
                     {
-                        $this->request->getSession()->setAttribute("userType", 'admin');
+                        $this->request->getSession()->setAttribute("userRole", 'admin');
                         $this->redirect("Admin");
                     }
                     else
                     {
-                        $this->request->getSession()->setAttribute("userType", 'member');
+                        $this->request->getSession()->setAttribute("userRole", 'member');
                         $this->redirect("Home");
                     }
                 }

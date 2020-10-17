@@ -24,11 +24,12 @@ abstract class Controller
 	{
 		$this->request = $request;
 	}
-	
-	/**
+
+    /**
      * Exécute l'action à réaliser.
      * Appelle la méthode portant le même nom que l'action sur l'objet Contrôleur courant
-     * 
+     *
+     * @param $action
      * @throws Exception Si l'action n'existe pas dans la classe Contrôleur courante
      */
 	public function executeAction($action)
@@ -65,13 +66,14 @@ abstract class Controller
 		$view = new View($this->action, $controller);
 		$view->generate($dataView);
 	}
-	/**
-	 * Effectue une redirection vers un contrôleur et une action spécifiques
-	 * 
-	 * @param string $controller Controller
-	 * @param string $action Action Action
-	 */
-	protected function redirect($controller, $action = null)
+
+    /**
+     * Effectue une redirection vers un contrôleur et une action spécifiques
+     *
+     * @param string $controller Controller
+     * @param null $action Action Action
+     */
+	protected function redirect(string $controller, $action = null)
 	{
 	    $rootWeb = Configuration::get("rootWeb", "/");
 	    // Redirection vers l'URL racine_site/controller/action

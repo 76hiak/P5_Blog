@@ -28,7 +28,7 @@
         <div class="control-group">
           <div class="form-group controls">
             <label for="content">Contenu</label>
-            <textarea name="content" rows="10" type="text" class="form-control" placeholder="Content" id="content" required data-validation-required-message="Veuillez renseigner ce champ."><?= $this->sanitize($post->getContent()) ?></textarea>
+            <textarea name="content" rows="10" class="form-control" placeholder="Content" id="content" required data-validation-required-message="Veuillez renseigner ce champ."><?= $this->sanitize($post->getContent()) ?></textarea>
             <p class="help-block text-danger"></p>
           </div>
         </div>

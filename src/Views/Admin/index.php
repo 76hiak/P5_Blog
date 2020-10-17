@@ -28,7 +28,7 @@
         <div class="control-group error">
           <div class="form-group floating-label-form-group controls">
             <label>Contenu</label>
-              <label for="content"></label><textarea rows="10" name="content" type="text" class="form-control" placeholder="Contenu" id="content" required data-validation-required-message="Veuillez renseigner ce champ."></textarea>
+              <label for="content"></label><textarea rows="10" name="content" class="form-control" placeholder="Contenu" id="content" required data-validation-required-message="Veuillez renseigner ce champ."></textarea>
             <p class="help-block text-danger"></p>
           </div>
         </div>

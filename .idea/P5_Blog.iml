@@ -8,7 +8,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Views" isTestSource="false" packagePrefix="Views\" />
       <sourceFolder url="file://$MODULE_DIR$/src/Blog" isTestSource="false" packagePrefix="Blog\" />
       <sourceFolder url="file://$MODULE_DIR$/src/Controllers" isTestSource="false" packagePrefix="Controllers\" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Models/Entity/Post" isTestSource="false" packagePrefix="Post\" />
       <sourceFolder url="file://$MODULE_DIR$/src/Models/Manager" isTestSource="false" packagePrefix="Manager\" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/bootstrap/css" />

@@ -30,6 +30,8 @@ class User extends Entity
     public function getUserRole() { return $this->userRole; }
 	public function getDateCreation() { return $this->dateCreation; }
 	public function getFormattedDateCreation() { return $this->getFormattedDateTime($this->dateCreation); }
+    public function getDateUpdate() { return $this->dateUpdate; }
+    public function getFormattedDateUpdate() { return $this->getFormattedDateTime($this->dateUpdate); }
 	
     public function setId($id) { $this->id = $id; }
     public function setUsername($username) { $this->username = $username; }

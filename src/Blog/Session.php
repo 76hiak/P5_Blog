@@ -25,28 +25,31 @@ class Session
     {
         session_destroy();
     }
+
     /**
      * Ajoute un attribut à la session
      *
      * @param string $name Nom de l'attribut
      * @param string $value Valeur de l'attribut
      */
-    public function setAttribute($name, $value)
+    public function setAttribute(string $name, string $value)
     {
         $name = htmlspecialchars($name);
         $value = htmlspecialchars($value);
         $_SESSION[$name] = $value;
     }
+
     /**
      * Renvoie vrai si l'attribut existe dans la session
      *
      * @param string $name Nom de l'attribut
      * @return bool Vrai si l'attribut existe et sa valeur n'est pas vide
      */
-    public function existsAttribute($name)
+    public function existsAttribute(string $name)
     {
         return (isset($_SESSION[$name]) && $_SESSION[$name] != "");
     }
+
     /**
      * Renvoie la valeur de l'attribut demandé
      *
@@ -54,7 +57,7 @@ class Session
      * @return string Valeur de l'attribut
      * @throws Exception Si l'attribut n'existe pas dans la session
      */
-    public function getAttribute($name)
+    public function getAttribute(string $name)
     {
         if ($this->existsAttribute($name)) 
         {

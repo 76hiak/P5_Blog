@@ -11,10 +11,6 @@ class ComposerStaticInit64e3f78c5896038c2d85752f953248b2
         array (
             'Views\\' => 6,
         ),
-        'P' => 
-        array (
-            'Post\\' => 5,
-        ),
         'M' => 
         array (
             'Manager\\' => 8,
@@ -41,10 +37,6 @@ class ComposerStaticInit64e3f78c5896038c2d85752f953248b2
         'Views\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/Views',
-        ),
-        'Post\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src/Models/Entity/Post',
         ),
         'Manager\\' => 
         array (
