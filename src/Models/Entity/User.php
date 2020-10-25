@@ -1,6 +1,6 @@
 <?php
 
-namespace Models\Entity;
+namespace Entity;
 
 use \Blog\Entity;
 

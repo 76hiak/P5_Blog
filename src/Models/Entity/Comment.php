@@ -1,6 +1,6 @@
 <?php
 
-namespace Models\Entity;
+namespace Entity;
 
 use \Blog\Entity;
 
@@ -14,6 +14,7 @@ class Comment extends Entity
     private $dateUpdate;
     private $userId;
     private $postId;
+    private $username;
 
     public function getId() { return $this->id; }
     public function getTitle() { return $this->title; }
@@ -23,6 +24,9 @@ class Comment extends Entity
     public function getDateupdate() { return $this->dateUpdate; }
     public function getUserId() { return $this->userId; }
     public function getPostId() { return $this->postId; }
+    public function getUsername() { return $this->username; }
+    public function getFormattedDateCreation() { return $this->getFormattedDateTime($this->dateCreation); }
+    public function getFormattedDateUpdate() { return $this->getFormattedDateTime($this->dateUpdate); }
 
     public function setId($id) { $this->id = $id; }
     public function setTitle($title) { $this->title = $title; }

@@ -4,7 +4,7 @@ namespace Manager;
 
 use \Blog\Model;
 use Exception;
-use \Models\Entity\Comment;
+use Entity\Comment;
 use PDO;
 
 class CommentsManager extends Model

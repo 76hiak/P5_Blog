@@ -1,7 +1,7 @@
 <?php $this->title = "Mon Blog - Inscription" ?>
 
 <!-- Page Header -->
-<header class="masthead" style="background-image: url('public/bootstrap/startbootstrap-freelancer-gh-pages/img/profile.png')">
+<header class="masthead" style="background-image: url('img/profile.png')">
   <div class="overlay"></div>
   <div class="container">
     <div class="row">
@@ -20,7 +20,7 @@
   <div class="row">
     <div class="col-lg-8 col-md-10 mx-auto">
       
-      <form method="post" action="register" id="contactForm" novalidate>
+      <form method="post" action="registration" id="contactForm" novalidate>
         <div class="control-group">
           <div class="form-group floating-label-form-group controls">
             <label>Nom d'utilisateur</label>

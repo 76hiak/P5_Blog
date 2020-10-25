@@ -2,7 +2,7 @@
 
 
 <!-- Page Header -->
-<header class="masthead" style="background-image: url('public/bootstrap/startbootstrap-freelancer-gh-pages/img/profile.png')">
+<header class="masthead" style="background-image: url('img/profile.png')">
   <div class="overlay"></div>
   <div class="container">
     <div class="row">

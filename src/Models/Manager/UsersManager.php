@@ -4,7 +4,7 @@ namespace Manager;
 
 use \Blog\Model;
 use Exception;
-use \Models\Entity\User;
+use Entity\User;
 use PDO;
 
 class UsersManager extends Model

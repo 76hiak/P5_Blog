@@ -9,13 +9,13 @@
     <base href="<?= $rootWeb ?>"> <!-- Param -->
 
     <!-- Bootstrap core CSS -->
-    <link href="public/bootstrap/startbootstrap-freelancer-gh-pages/css/freelancer.min.css" rel="stylesheet">
+    <link href="css/freelancer.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="public/bootstrap/startbootstrap-freelancer-gh-pages/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     
     <!-- Custom CSS -->
-    <link href="public/bootstrap/startbootstrap-freelancer-gh-pages/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   </head>
 
   <body>
@@ -140,15 +140,15 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="public/bootstrap/startbootstrap-freelancer-gh-pages/vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="public/bootstrap/startbootstrap-freelancer-gh-pages/js/freelancer.min.js"></script>
+    <script src="js/freelancer.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="public/bootstrap/startbootstrap-freelancer-gh-pages/js/contact_me.js"></script>
+    <script src="js/contact_me.js"></script>
 
     <!-- JQuery Bootstrap Form Validation Plugin -->
-    <script src="public/bootstrap/startbootstrap-freelancer-gh-pages/js/jqBootstrapValidation.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
   </body>
 </html>

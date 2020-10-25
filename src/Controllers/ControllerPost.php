@@ -5,7 +5,7 @@
 use \Blog\Controller;
 use \Manager\PostsManager;
 use \Manager\CommentsManager;
-use \Models\Entity\Comment;
+use Entity\Comment;
 
 class ControllerPost extends Controller
 {

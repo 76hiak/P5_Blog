@@ -1,9 +1,9 @@
 <?php
 
-use \Blog\Controller;
-use \Blog\Configuration;
-use \Manager\UsersManager;
-use \Models\Entity\User;
+use Blog\Controller;
+use Blog\Configuration;
+use Manager\UsersManager;
+use Entity\User;
 
 class ControllerRegistration extends Controller
 {

@@ -23,7 +23,7 @@ abstract class Model
      * @param null $params Paramètres de la requête
      * @return PDOStatement Résultats de la requête
      */
-    protected function executeRequest(string $sql, $params = null)
+    protected function executeRequest($sql, $params = null)
     {
         if ($params == null)
         {

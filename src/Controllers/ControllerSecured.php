@@ -1,6 +1,6 @@
 <?php
 
-use \Blog\Controller;
+use Blog\Controller;
 
 /** Classe parente des contrôleurs soumis à l'authentification */
 abstract class ControllerSecured extends Controller

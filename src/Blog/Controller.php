@@ -73,7 +73,7 @@ abstract class Controller
      * @param string $controller Controller
      * @param null $action Action Action
      */
-	protected function redirect(string $controller, $action = null)
+	protected function redirect($controller, $action = null)
 	{
 	    $rootWeb = Configuration::get("rootWeb", "/");
 	    // Redirection vers l'URL racine_site/controller/action

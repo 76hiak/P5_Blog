@@ -32,7 +32,7 @@ class Session
      * @param string $name Nom de l'attribut
      * @param string $value Valeur de l'attribut
      */
-    public function setAttribute(string $name, string $value)
+    public function setAttribute($name, $value)
     {
         $name = htmlspecialchars($name);
         $value = htmlspecialchars($value);
@@ -45,7 +45,7 @@ class Session
      * @param string $name Nom de l'attribut
      * @return bool Vrai si l'attribut existe et sa valeur n'est pas vide
      */
-    public function existsAttribute(string $name)
+    public function existsAttribute($name)
     {
         return (isset($_SESSION[$name]) && $_SESSION[$name] != "");
     }
@@ -57,7 +57,7 @@ class Session
      * @return string Valeur de l'attribut
      * @throws Exception Si l'attribut n'existe pas dans la session
      */
-    public function getAttribute(string $name)
+    public function getAttribute($name)
     {
         if ($this->existsAttribute($name)) 
         {

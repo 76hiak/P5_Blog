@@ -4,7 +4,7 @@ namespace Manager;
 
 use \Blog\Model;
 use Exception;
-use \Models\Entity\Post;
+use Entity\Post;
 use PDO;
 
 class PostsManager extends Model
